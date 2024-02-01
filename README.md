@@ -12,17 +12,16 @@ Pour suivre ce tutoriel, vous devez avoir :
 # Contenu
 Ce tutoriel contient les fichiers suivants :
 - ventes.csv : un fichier CSV contenant des données fictives sur les ventes de différents produits
-- exemple1.py : un code démontrant l’utilisation d’une variable locale
-- exemple2.py : un code démontrant l’utilisation d’une variable globale
-- exemple3.py : un code illustrant les implications de la portée des variables dans la manipulation de données
-- exemple4.py : un code démontrant l’utilisation du mot-clé global pour accéder à une variable globale
-- exemple5.py : un code démontrant l'utilisation de return pour les variables locales
-- exemple6.py : un code démontrant l’ombrage d’une variable globale par une variable locale du même nom
-- exemple7.py : un code d’analyse de ventes
-- exemple8.py : un code de visualisation de ventes
-- exemple9.py : un code d’automatisation de ventes
-- exemple10.py : un code d'analyse de données en temps réel
-- exemple11.py : un code de système de gestion de base de données
+- variable_locale.py : un code démontrant l’utilisation d’une variable locale
+- variable_globale.py : un code démontrant l’utilisation d’une variable globale
+- portee_variables.py : un code illustrant les implications de la portée des variables dans la manipulation de données
+- motcle_globale.py : un code démontrant l’utilisation du mot-clé global pour accéder à une variable globale
+- return_locale.py : un code démontrant l'utilisation de return pour les variables locales
+- ombrage.py : un code démontrant l’ombrage d’une variable globale par une variable locale du même nom
+- analyse_ventes.py : un code d’analyse de ventes
+- visualisation_ventes.py : un code de visualisation de ventes
+- automatisation_ventes.py : un code d’automatisation de ventes
+- gestion_base_donnees.py : un code de système de gestion de base de données
 
 # Instructions
 Pour suivre ce tutoriel, vous devez :
