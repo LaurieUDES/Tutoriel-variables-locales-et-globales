@@ -1,4 +1,4 @@
-# Exemple 9: Exemple d’automatisation de ventes
+########### Exemple d’automatisation de ventes ###########
 
 # Une variable globale qui contient la fonction qui envoie le courriel
 def envoyer_courriel(destinataire, message):

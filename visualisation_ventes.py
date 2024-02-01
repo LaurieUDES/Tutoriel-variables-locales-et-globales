@@ -1,4 +1,4 @@
-# Exemple 8: Exemple de visualisation de ventes
+########### Exemple de visualisation de ventes ###########
 
 # On importe la bibliothèque matplotlib
 import matplotlib.pyplot as plt

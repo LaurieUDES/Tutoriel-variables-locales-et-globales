@@ -1,4 +1,4 @@
-# Exemple 3: Code illustrant les implications de la portée des variables dans la manipulation de données.
+########### Code illustrant les implications de la portée des variables dans la manipulation de données. ###########
 
 # Importation de la bibliothèque pandas
 import pandas as pd

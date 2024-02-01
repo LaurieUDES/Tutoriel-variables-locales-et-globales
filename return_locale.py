@@ -1,4 +1,4 @@
-# Exemple 5: Code démontrant les limites de l’utilisation d’une variable locale.
+########### Code démontrant les limites de l’utilisation d’une variable locale. ###########
 
 # Définition d'une fonction qui calcule le pourcentage des ventes d'un produit par rapport au total
 def calculer_pourcentage(ventes_produit):

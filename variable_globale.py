@@ -1,4 +1,4 @@
-# Exemple 2: Code démontrant l’utilisation d’une variable globale.
+########### Code démontrant l’utilisation d’une variable globale. ###########
 
 # Une variable globale nommée ventes_etats_unis
 ventes_etats_unis = 200

@@ -1,4 +1,4 @@
-# Exemple 7: Exemple d’une analyse de ventes
+########### Exemple d’une analyse de ventes ###########
 
 # On importe les modules pandas et statistics
 import pandas as pd

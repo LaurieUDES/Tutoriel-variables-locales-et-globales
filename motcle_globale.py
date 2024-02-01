@@ -1,4 +1,4 @@
-# Exemple 4: Code démontrant l’utilisation du mot-clé global pour accéder à une variable globale.
+########### Code démontrant l’utilisation du mot-clé global pour accéder à une variable globale. ###########
 
 # Une variable globale nommée ventes_france
 ventes_france = 100

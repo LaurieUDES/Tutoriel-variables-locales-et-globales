@@ -1,4 +1,4 @@
-# Exemple 6: Code démontrant l’ombrage d’une variable globale par une variable locale du même nom.
+########### Code démontrant l’ombrage d’une variable globale par une variable locale du même nom ###########
 
 # Une variable globale nommée ventes_canada
 ventes_canada = 150

@@ -1,4 +1,4 @@
-# Exemple 11: ASystème de gestion de base de données
+########### Système de gestion de base de données ###########
 
 # Importation de la bibliothèque sqlite3
 import sqlite3
