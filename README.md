@@ -14,7 +14,7 @@ Ce tutoriel contient les fichiers suivants :
 - ventes.csv : un fichier CSV contenant des données fictives sur les ventes de différents produits
 - variable_locale.py : un code démontrant l’utilisation d’une variable locale
 - variable_globale.py : un code démontrant l’utilisation d’une variable globale
-- portee_variable.py : un code illustrant les implications de la portée des variables dans la manipulation de données
+- portee_variables.py : un code illustrant les implications de la portée des variables dans la manipulation de données
 - motcle_globale.py : un code démontrant l’utilisation du mot-clé global pour accéder à une variable globale
 - return_locale.py : un code démontrant l'utilisation de return pour les variables locales
 - ombrage.py : un code démontrant l’ombrage d’une variable globale par une variable locale du même nom
