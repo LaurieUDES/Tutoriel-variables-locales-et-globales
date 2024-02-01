@@ -21,6 +21,8 @@ Ce tutoriel contient les fichiers suivants :
 - exemple7.py : un code d’analyse de ventes
 - exemple8.py : un code de visualisation de ventes
 - exemple9.py : un code d’automatisation de ventes
+- exemple10.py : un code d'analyse de données en temps réel
+- exemple11.py : un code de système de gestion de base de données
 
 # Instructions
 Pour suivre ce tutoriel, vous devez :
