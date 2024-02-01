@@ -15,6 +15,6 @@ vendeurs = [
 # Une boucle qui parcourt les vendeurs et crée un message personnalisé pour chacun
 for vendeur in vendeurs:
   # Une variable locale qui stocke le message à envoyer
-  message = f"Bonjour {vendeur['nom']},\nFélicitations pour vos ventes du mois dernier. Vous avez gagné {vendeur['commissions']} euros de commissions.\nContinuez comme ça et vous atteindrez bientôt vos objectifs.\nCordialement,\nL'équipe Bing."
+  message = f"Bonjour {vendeur['nom']},\nFélicitations pour vos ventes du mois dernier. Vous avez gagné {vendeur['commissions']} euros de commissions.\nContinuez comme ça et vous atteindrez bientôt vos objectifs.\nCordialement,\nL'équipe GTA431."
   # On appelle la fonction globale qui envoie le courriel
   envoyer_courriel(vendeur['nom'], message)

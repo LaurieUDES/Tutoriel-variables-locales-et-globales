@@ -1,8 +1,25 @@
+# Exemple 11: ASystème de gestion de base de données
+
 # Importation de la bibliothèque sqlite3
 import sqlite3
 
 # Définition d'une variable globale nommée connexion
 connexion = sqlite3.connect('base_de_donnees.db') # Connexion à la base de données
+
+# Définition d’une fonction qui supprime une table
+def supprimer_table(nom_table):
+  # Création d'un objet Cursor qui permet d'exécuter des requêtes SQL
+  curseur = connexion.cursor()
+  # Définition d'une variable locale nommée requete
+  requete = f"DROP TABLE IF EXISTS {nom_table}"
+  # Exécution de la requête
+  curseur.execute(requete)
+  # Validation de la transaction
+  connexion.commit()
+
+# Appel de la fonction supprimer_table pour supprimer la table produits et ventes
+supprimer_table("produits")
+supprimer_table("ventes")
 
 # Définition d'une fonction qui crée une table
 def creer_table(nom_table, colonnes):
@@ -40,17 +57,17 @@ def selectionner_donnees(nom_table, condition):
   print(resultat)
 
 # Appel de la fonction creer_table pour créer la table produits
-creer_table("produits", "nom TEXT, prix REAL, categorie TEXT")
+creer_table("produits", "nom TEXT, prix REAL, categorie TEXT, couleur TEXT")
 
 # Appel de la fonction creer_table pour créer la table ventes
 creer_table("ventes", "produit TEXT, quantite INTEGER, date TEXT")
 
 # Appel de la fonction inserer_donnees pour insérer des données dans la table produits
-inserer_donnees("produits", "'Livre', 10.0, 'Culture'")
-inserer_donnees("produits", "'Stylo', 1.5, 'Papeterie'")
-inserer_donnees("produits", "'T-shirt', 15.0, 'Mode'")
-inserer_donnees("produits", "'Casque', 50.0, 'High-tech'")
-inserer_donnees("produits", "'Chocolat', 2.0, 'Alimentation'")
+inserer_donnees("produits", "'Livre', 10.0, 'Culture', 'rouge'")
+inserer_donnees("produits", "'Stylo', 1.5, 'Papeterie', 'bleu'")
+inserer_donnees("produits", "'T-shirt', 15.0, 'Mode', 'vert'")
+inserer_donnees("produits", "'Casque', 50.0, 'High-tech', 'noir'")
+inserer_donnees("produits", "'Chocolat', 2.0, 'Alimentation', 'marron'")
 
 # Appel de la fonction inserer_donnees pour insérer des données dans la table ventes
 inserer_donnees("ventes", "'Livre', 3, '2024-01-01'")
